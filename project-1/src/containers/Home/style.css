@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.home-page-container{
+  max-width: 80%;
+  margin: 45px auto;
+  display: flex;
+}
+
+/* left Content */
+.content-left{
+
+}
+
+.content-left h1{
+  font-size: 102px;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  line-height: 102px;
+}
+
+.content-left p{
+  max-width: 65%;
+  margin: 1.5rem 0 2rem 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.shop-now-button{
+  border: none;
+  color: white;
+  background-color: #bf0a0a;
+  padding: 5px 20px;
+  margin-right: 3rem;
+}
+
+.category-button{
+  padding: 4px 20px;
+  background-color: white;
+  border-width: 1px;
+}
+
+.btn{
+  font-size: 18px;
+
+}
+/* Right Content */
+.content-right{
+
+}
+
+.image-container{
+  height: 380px;
+}
+
+.shoe-img{
+  margin-top: 30px;
+  height: 100%;
+  width: auto;
+}

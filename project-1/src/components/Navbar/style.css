@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  font-family:"Poppins", Georgia, 'Times New Roman', Times, serif;
+  /* box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1); */
+
+}
+
+/* Navbar left */
+
+.navbar-left{
+  margin-left: 3rem;
+}
+
+.logo-container{
+  height: 40px;
+  width: auto;
+}
+
+.logo{
+  height: 100%;
+  width: auto;
+}
+
+/* Navbar Middle */
+
+.navbar-middle{
+
+}
+
+.navbar-middle-list{
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.navbar-middle-list-item {
+}
+
+.navbar-middle-list-item-link {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.navbar-middle-list-item-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -7px; /* Slightly below the text */
+  height: 3px;
+  width: 0;
+  background-color: black;
+  transition: width 0.4s ease;
+}
+
+.navbar-middle-list-item-link:hover::after {
+  width: 100%;
+}
+
+
+
+.navbar-right{
+  margin-right: 3rem;
+
+}
+
+.login-button{
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  background-color: #c31111;
+}
